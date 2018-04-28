@@ -7,9 +7,10 @@
   "execMap": {
     "js": "node "
   },
+  "exec": "mocha 'tests/**/*.test.js'",
   "watch": ["."],
   "env": {
-    "DEBUG": "insert*"
+    "DEBUG": "edit*"
   },
-  "ext": "js,json,txt"
+  "ext": "js,json"
 }
